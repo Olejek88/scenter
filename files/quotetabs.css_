@@ -1,0 +1,76 @@
+#navigation a 
+{ 
+color: #000; 
+background: #FF9900 url("left-tabb.gif") left top no-repeat; 
+text-decoration: none; 
+padding-left: 10px 
+} 
+
+#navigation a span 
+{ 
+background: url("right-tabb.gif") right top no-repeat; 
+padding-right: 10px 
+} 
+
+#navigation a, #navigation a span 
+{ 
+display: block; 
+float: left 
+} 
+
+/* Commented backslash hack hides rule from IE5-Mac \*/ 
+#navigation a, #navigation a span 
+{ 
+float: none 
+} 
+/* End IE5-Mac hack */ 
+
+#navigation a:hover 
+{ 
+color: #fff; 
+background: #476a94 url("left-tab-hoverx.gif") left top no-repeat; 
+text-decoration: none; 
+padding-left: 10px 
+} 
+
+#navigation a:hover span 
+{ 
+background: url("right-tab-hoverx.gif") right top no-repeat; 
+padding-right: 10px 
+} 
+
+#navigation 
+{ 
+list-style: none; 
+padding: 0; 
+margin: 0 
+} 
+
+#navigation li 
+{ 
+float: left; 
+display: block; 
+margin: 0; 
+padding: 0 
+}
+
+#navigation {list-style:none; padding:0; margin:0}
+#navigation li {float:left; display:block; margin:0; padding:0}
+#border {height:1em; 
+ padding-bottom: 5px;
+background:#476a94}
+
+
+ul#navigation a.sel
+{
+color: white; 
+font-weight: bold;
+background: #476a94  url("left-tab-hoverx.gif") left top no-repeat; 
+padding-left: 30px 
+}
+
+ul#navigation a.sel span 
+{ 
+background: url("right-tab-hoverx.gif") right top no-repeat; 
+padding-right: 30px 
+} 

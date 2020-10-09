@@ -1,0 +1,19 @@
+.actionMenu { list-style: none; display: block; margin: -14px 0 0 -13px; padding: 0; border-bottom: 1px solid #76842f; width: 742px; height: 31px; }
+.actionMenuItem { margin-top: -14px; width: 139px; float: left; background: url(actionTabHorizontal.jpg) no-repeat 0px -32px; list-style: none; display: block; margin-bottom: 2px; margin-right: 1px; }
+.actionMenuItem a { display: block; height: 24px; width: 139px; text-align: center; padding: 8px 0 0 0; text-decoration: none; color: #fff; }
+.actionMenuItem a:link { }
+.actionMenuItem a:hover { color: #ffff33; }
+.actionMenuItem a:active { }
+.actionMenuItem a:visited { }
+/*.actionMenuItem.selected { background: url(actionTabHorizontal.jpg) no-repeat 0px 0px; }*/
+.actionMenuItem.selected a { color: #000; }
+.actionMenuItem.first { height: 32px; background: url(actionTabHorizontalFirst.gif) no-repeat 0px -32px; }
+/*.actionMenuItem.first.selected { background: url(actionTabHorizontalFirst.gif) no-repeat 0px 0px; }*/
+.actionMenuItemCaption { margin-top: -14px; height: 32px; width: 320px; float: left; background: #efecdd; list-style: none; display: block; margin-bottom: 2px; margin-right: 0px; color: #e33900; border: 1px solid #d6d0ac; border-bottom: 0px none; overflow: hidden; }
+.actionMenuItemCaption h1 { font-size: 1.2em; margin: 5px 0 0 10px; display: block; overflow: hidden; height: 20px; }
+.actionMenuItemHeader { background: #efecdd; border: 1px solid #d6d0ac; border-top: 1px none; width: 724px; height: 40px; }
+.actionMenuItemHeader ul { list-style: none; float: left; color: #e33900; }
+.actionMenuItemHeader span.caption { font-weight: bold; color: #000; }
+.actionBorder { border: 1px solid #d6d0ac; margin: 2px 0 0 0; min-height: 200px; }
+.actionMenuItemHeaderList { margin: 2px 0 0 0; }
+.actionMenuItemHeaderList.first { margin-left: 50px; }
